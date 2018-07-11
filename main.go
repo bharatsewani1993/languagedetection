@@ -2,7 +2,8 @@ package main
 
 import(
   "fmt"
-  "github.com/rylans/getlang"
+  //"github.com/rylans/getlang"
+  "../getlang"
 )
 
 func main(){
@@ -13,6 +14,7 @@ func main(){
     "Mi nombre es Bharat.", //Spanish
     "Mon nom est Bharat.", //French
     "我的名字是巴拉特。", //Chinese
+    "ਮੇਰਾ ਨਾਮ ਭਰਤ ਹੈ.", //punjabi
   }
 
      languages := map[string]string{
@@ -23,6 +25,7 @@ func main(){
       "es": "Spanish",
       "fr": "French",
       "zh": "Chinese",
+      "pa": "Punjabi",
    }
 
    for i := 0; i< len(sentence); i++{
