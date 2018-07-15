@@ -17,6 +17,7 @@ func main(){
     "ਮੇਰਾ ਨਾਮ ਭਰਤ ਹੈ.", //punjabi
     "ನನ್ನ ಹೆಸರು ಭಾರತ್.", //Kannada
     "ഞാൻ ഇന്ത്യയെ സ്നേഹിക്കുന്നു.", //Malayalam
+    "mr": "माझे नाव भरत आहे.", //Marathi
   }
 
      languages := map[string]string{
@@ -30,6 +31,7 @@ func main(){
       "pa": "Punjabi",
       "kn": "Kannada",
       "ml": "Malayalam",
+      "mr": "Marathi",
    }
 
    for i := 0; i< len(sentence); i++{
